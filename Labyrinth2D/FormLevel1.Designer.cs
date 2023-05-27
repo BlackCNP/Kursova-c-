@@ -123,6 +123,7 @@
             this.Name = "FormLevel1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FormLevel1";
+            this.Load += new System.EventHandler(this.FormLevel1_Load);
             this.Shown += new System.EventHandler(this.FormLevel1_Shown);
             this.ResumeLayout(false);
 

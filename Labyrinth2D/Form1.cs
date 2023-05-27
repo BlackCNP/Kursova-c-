@@ -41,7 +41,8 @@ namespace Labyrinth2D
             DialogResult dr = level1.ShowDialog();
             if (dr == DialogResult.OK)
                 start_level2();
-            
+
+
         }
         private void start_level2()
         {
@@ -63,9 +64,20 @@ namespace Labyrinth2D
         {
             FormLevel4 level4 = new FormLevel4();
             DialogResult dr4 = level4.ShowDialog();
-            //if (dr3 == DialogResult.OK)
-              //  start_level4();
+            if (dr4 == DialogResult.OK)
+               start_level5();
+        }
+        private void start_level5()
+        {
+            FormLevel5 level5 = new FormLevel5();
+            DialogResult dr5 = level5.ShowDialog();
+            //if (dr5 == DialogResult.OK)
+                //start_level4();
         }
 
+        private void FormMenu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

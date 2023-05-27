@@ -57,5 +57,10 @@ namespace Labyrinth2D
         {
             finish_game ();
         }
+
+        private void FormLevel1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

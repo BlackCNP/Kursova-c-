@@ -89,6 +89,7 @@
             this.Name = "FormMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Labyrinth2D";
+            this.Load += new System.EventHandler(this.FormMenu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -27,8 +27,8 @@ namespace Labyrinth2D
             point = label_start.Location;
             point.Offset(label_start.Width / 2, label_start.Height / 2);
             Cursor.Position = PointToScreen(point);
-            label_key.Visible = true;
             label8.Visible = true;
+            label_key.Visible = true;
             label_key_1.Visible = true;
             Sound.play_start();
         }
